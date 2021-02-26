@@ -64,3 +64,51 @@
         background-position: center;
       }
       
+      main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      
+      .first, .second, .therd{
+        margin-bottom: 20px;
+      }
+      .section-container {
+        display: flex;
+        margin-left: 50px;
+      }
+      
+      .l-sides {
+        width: 300px;
+        height: 300px;
+        padding: 50px;
+        
+        
+      }
+      .header__left {
+        display: flex;
+        position:relative;
+        bottom: 55px;
+        left: 30px; 
+        font-size: 40px;
+        color: grey;
+        margin: 0 5% 1% 5%;
+        text-align:right;
+      }
+      
+      .r-sides {
+        margin-bottom: 25px;
+        border-left:5px solid var(--min-background-color);  
+      }
+      p {
+        font-size: larger;
+        margin-left: 15px; 
+        margin-bottom: 25px;
+      }
+      .about-info {
+        display: flex;
+      }
+      span {
+        font-weight: 900;
+        font-size: 23px; 
+      }
