@@ -112,3 +112,54 @@
         font-weight: 900;
         font-size: 23px; 
       }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+        padding: 3rem;
+      }
+      
+      .card {
+      display: flex;
+      flex-direction: column;
+      flex: 1 0 300px;
+      max-width: 450px ;
+      overflow: hidden;
+      background: #ffffff;
+      color: #000000;
+      border-radius: 5px;
+      box-shadow: 3px 2px 14px rgba(#262631,0.4);
+      text-decoration: none;
+      
+      } 
+      
+      .cards div:nth-child(1)
+      {
+        width: 100%;
+      }
+      .card__img{
+        flex: 0 0 120px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center; 
+        width: 400px;
+        height: 300px;
+      }
+      .card__title {
+        background-color: var(--min-background-color);
+        color: var(--text-coloer);
+        font-size: .75rem;
+        font-weight: 700; 
+      }
+      
+      .contact_list {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 200px;
+        gap: 1;
+        margin-left: 1.5rem;
+      }
+
+      
