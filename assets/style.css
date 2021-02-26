@@ -55,3 +55,12 @@
       color:var(--text-coloer);
       text-decoration-color: var(--text-coloer); 
     }
+    .hero {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 25px;
+        background-image: url("./img/hero_section.jpg");
+        background-size: cover;
+        background-position: center;
+      }
+      
