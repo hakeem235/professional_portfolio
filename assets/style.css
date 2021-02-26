@@ -162,4 +162,17 @@
         margin-left: 1.5rem;
       }
 
+      .contact_list {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1 0 200px;
+        gap: 1;
+        margin-left: 1.5rem;
+      }
       
+      footer {
+        background: grey;
+       text-align: center;
+       font-size: 15px;
+       color:var(--min-background-color);
+      }
