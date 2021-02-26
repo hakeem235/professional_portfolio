@@ -1,19 +1,57 @@
-.hero {
-    background-image: url("./img/hero_section.jpg");
-    width: 100%;
-    height: 100px;
-    background-position: center;
-    background-size: cover ;
-}
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.box {
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
-}
+/* all the varibel  */
+:root {
+    --min-background-color: #92cbcd ;
+    --text-coloer: whitesmoke;
+    }
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      background: #edeef6;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding:  10px 10px 10px 0;
+      background:#31343d;
+      color: black;
+      
+    }
+     header h1 {
+       font-size: 200%;
+       background-color:var(--min-background-color);
+       align-items: center;
+       margin-left: 20px ;
+       padding-left: 10px;
+       padding-right: 1%;
+    
+     }
+    
+     header span {
+       color: var(--text-coloer);
+     }
+    
+     
+    .navebar ul {
+      display: flex;
+      justify-content: space-between;
+      min-width: 300px;
+      
+    }
+    
+    .navebar a {
+      color:var(--min-background-color);
+      font-weight: bolder;
+      text-decoration: underline;
+      text-decoration-color:var(--min-background-color);
+    }
+    
+    .navebar a:hover {
+      color:var(--text-coloer);
+      text-decoration-color: var(--text-coloer); 
+    }
