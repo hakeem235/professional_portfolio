@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: #eff1f7;
+    /* background: #eff1f7; */
 }
 
 .content {
@@ -31,7 +31,7 @@ justify-content: center;
     grid-template-rows: 130px 800px 250px;
 }
 
-.content, .sidebar, .contat {
+.content, .sidebar, .contat, .cards {
     padding: 1em;
 }
 
@@ -101,13 +101,14 @@ nav li a:hover {
 }
 
 .wrok {
-    background: whitesmoke;
+    background: darkgray;
     border-bottom: 3px solid black;
 }
 
 .cards {
     display: flex;
     flex-wrap: wrap;
+    
     gap: 1.5rem;
     padding: 3rem;
     justify-content: center;
@@ -119,7 +120,7 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     flex: 0 0 300px;
-    max-width: 30em;
+    max-width: 100%;
     background: whitesmoke;
     overflow: hidden;
     color: black;
@@ -136,8 +137,7 @@ nav li a:hover {
 }
 
 .card__img {
-    flex: 0 0 120px;
-    width: 450px;
+    flex: 0 0 200px;
     height: 450px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -158,10 +158,6 @@ nav li a:hover {
 
 }
 
-/* .cards a:nth-child(1) {
-    flex: 1 0 100%;
-    flex-grow: 3; 
-}*/
 
 .contat {
     border-top: 3px solid black;
@@ -184,6 +180,7 @@ nav li a:hover {
     text-decoration: none;
     color: #c1c6ce;
 }
+
 svg {
     width: 40%;
 }
@@ -201,7 +198,7 @@ justify-content: center;
 {
     .first {
         flex: 1 0 100%;
-        max-width:none;
+        max-width:100%;
          
     }
     .first div {
