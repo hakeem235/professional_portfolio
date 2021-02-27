@@ -198,8 +198,7 @@ justify-content: center;
 {
     .first {
         flex: 1 0 100%;
-        max-width:100%;
-         
+        max-width:none;    
     }
     .first div {
         width: 100%;
@@ -208,7 +207,7 @@ justify-content: center;
     .contaniner {
         grid-template-areas:
         "sidebar content"
-        "siderbar contat" ;
+        "sidebar contat" ;
     }
     nav ul {
         display: flex;
